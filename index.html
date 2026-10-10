@@ -22,7 +22,31 @@
     @media(max-width:900px){.navlinks{gap:16px}.logo{min-width:180px}.hero{min-height:430px}.hero-content{min-height:430px;padding-left:38px}.product-photo{height:145px}.product-body{padding:14px}.finder-row{grid-template-columns:repeat(3,1fr)}.find-btn{grid-column:1/-1;width:100%}}
     @media(max-width:640px){.wrap{width:calc(100% - 30px)}.announcement{font-size:8px;letter-spacing:.08em;height:31px}.nav{height:65px}.logo{min-width:0}.logo-mark{width:36px}.logo-mark svg{width:36px}.logo-text{font-size:13px}.logo-text small{font-size:7px}.navlinks{display:none;position:absolute;left:0;right:0;top:64px;background:#fff;border-top:1px solid #eee;padding:9px 16px 15px;box-shadow:0 12px 16px #0001}.navlinks.open{display:grid;gap:0}.navlinks a{padding:11px 5px;border-bottom:1px solid #f1f0ed}.nav-right{gap:9px}.search-icon{display:none}.nav-btn{padding:10px 11px;font-size:9px}.menu-toggle{display:block}.hero{margin-top:11px;min-height:380px;border-radius:5px}.hero-image{object-position:58% center}.hero-shade{background:linear-gradient(90deg,rgba(20,23,26,.79),rgba(20,23,26,.42) 58%,rgba(20,23,26,.1)),linear-gradient(0deg,rgba(0,0,0,.14),transparent)}.hero-content{min-height:380px;width:88%;padding:35px 0 39px 22px}.hero h1{font-size:clamp(39px,11.5vw,58px);max-width:340px}.hero-copy{font-size:11px;max-width:310px}.hero-actions{gap:12px;margin-top:20px}.hero .btn{padding:12px 14px;font-size:9px}.hero-link{font-size:9px}.hero-pill{right:10px;bottom:10px;font-size:8px;padding:8px 10px}.finder-wrap{margin-top:-20px}.finder{padding:16px 14px 13px;border-radius:6px}.finder-top{margin-bottom:13px}.finder-heading strong{font-size:13px}.finder-heading small{font-size:9px}.steps-label{font-size:8px}.finder-row{grid-template-columns:1fr;gap:9px}.field label{margin-bottom:4px}.field select{height:40px;font-size:10px}.find-btn{height:41px;grid-column:auto}.finder-bottom{font-size:8px}.brands{padding:30px 0}.brands h2,.section h2{font-size:27px}.brands-head{align-items:end}.brand-grid{grid-template-columns:repeat(2,1fr);gap:8px}.brand-tile{min-height:52px;font-size:10px}.how{padding:40px 0}.center-heading{margin-bottom:14px}.center-heading p{font-size:10px}.how-grid{gap:4px}.how-step{padding:12px 3px}.how-step:not(:last-child):after{right:-10px;top:32px;width:20px}.how-icon{height:39px;width:39px;font-size:15px;margin-bottom:10px}.how-step h3{font-size:9px}.how-step p{font-size:8px;line-height:1.5}.section{padding:45px 0}.section-top{display:block;margin-bottom:16px}.section-top p{margin-top:8px;font-size:10px}.product-grid{grid-template-columns:1fr;gap:11px}.product-card{display:grid;grid-template-columns:35% 1fr;min-height:133px}.product-photo{height:100%;min-height:133px}.product-body{padding:12px}.product-body h3{font-size:12px}.product-desc{font-size:9px;min-height:30px}.product-bottom{margin-top:8px;padding-top:8px}.price{font-size:14px}.checkout-strip{align-items:stretch;flex-direction:column;padding:13px}.order-button{width:100%;min-width:0}.advance-note{text-align:left}.compare{margin-top:17px}.compare-head div,.compare-row div{padding:10px 7px;font-size:8px}.compare-cta .btn{width:100%}.faq{padding-top:43px;padding-bottom:47px}.faq-grid{margin-top:16px}summary{font-size:10px;padding:14px 32px 14px 2px}.final-cta{padding:26px 0}.final-row{align-items:flex-start;flex-direction:column;gap:15px}.final-row h2{font-size:21px}.final-row .btn{width:100%}.footer-main{grid-template-columns:1fr 1fr;gap:20px}.footer-about{grid-column:1/-1}.footer-bottom{font-size:7px}.mobile-bar{display:block;position:fixed;z-index:7;left:0;right:0;bottom:0;padding:8px 14px calc(8px + env(safe-area-inset-bottom));background:#ffffffed;border-top:1px solid #e8e7e4;backdrop-filter:blur(9px)}.mobile-bar .btn{width:100%;height:42px}.toast{bottom:65px}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
-  </style>
+  
+.brand-model-panel{margin:18px 0 0;padding:clamp(16px,2.5vw,24px);background:#fffdfd;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px rgba(36,22,22,.055)}
+.brand-model-panel[hidden]{display:none!important}
+.brand-model-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:18px}
+.brand-model-heading{display:flex;align-items:center;gap:12px;min-width:0}
+.brand-model-logo{width:48px;height:42px;flex:0 0 48px;object-fit:contain;padding:4px;background:#fff;border:1px solid var(--line);border-radius:7px}
+.brand-model-head h3{font-size:clamp(18px,2.2vw,24px);line-height:1.2;margin:4px 0 5px;color:#202124}
+.brand-model-intro{font-size:11px;line-height:1.55;color:#777;margin:0}
+.brand-model-close{width:34px;height:34px;flex:0 0 34px;border:1px solid var(--line);border-radius:50%;background:#fff;color:#555;font-size:22px;line-height:1;cursor:pointer}
+.brand-model-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.brand-model-card{min-width:0;padding:15px;background:#fff;border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;align-items:flex-start;gap:10px;transition:border-color .18s,box-shadow .18s,transform .18s}
+.brand-model-card:hover{border-color:#dba4a7;box-shadow:0 6px 18px rgba(195,41,50,.08);transform:translateY(-2px)}
+.brand-model-card h4{font-size:13px;line-height:1.45;color:#353638;margin:0;min-height:38px}
+.brand-model-years{display:inline-flex;align-items:center;gap:5px;padding:5px 8px;border-radius:4px;background:#f8f2f2;color:#79575a;font-size:10px;font-weight:800;letter-spacing:.02em}
+.brand-model-action{margin-top:auto;width:100%;min-height:36px;padding:8px 10px;border:1px solid #ead0d1;border-radius:5px;background:#fff;color:var(--red);font-size:10px;font-weight:900;letter-spacing:.05em;text-align:center;cursor:pointer;transition:background .18s,color .18s,border-color .18s}
+.brand-model-action:hover,.brand-model-action:focus-visible{background:var(--red);border-color:var(--red);color:#fff}
+.brand-model-action:focus-visible,.brand-model-close:focus-visible{outline:3px solid rgba(195,41,50,.24);outline-offset:2px}
+.brand-tile[aria-expanded="true"]{border-color:var(--red);box-shadow:0 0 0 2px rgba(195,41,50,.08)}
+@keyframes brandModelReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.brand-model-panel:not([hidden]){animation:brandModelReveal .2s ease-out}
+@media(max-width:760px){.brand-model-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.brand-model-grid{grid-template-columns:1fr}.brand-model-card h4{min-height:0}.brand-model-heading{gap:9px}.brand-model-logo{width:40px;height:36px;flex-basis:40px}}
+@media(prefers-reduced-motion:reduce){.brand-model-panel:not([hidden]){animation:none}.brand-model-card{transition:none}.brand-model-card:hover{transform:none}}
+
+</style>
 </head>
 <body>
   <div class="announcement">Custom-fit car window shades <span>·</span> Order direct on WhatsApp</div>
@@ -48,6 +72,20 @@
       <div class="brands-head"><div><div class="eyebrow-red">Shop by brand</div><h2>Select your car brand</h2></div><span class="subtle-link" id="brandSummary">33 brands</span></div>
       <p class="brands-copy">Find your vehicle among 33 car brands. Select its model generation and year; exact shade fitment is confirmed on WhatsApp before production.</p>
       <div class="brand-grid" id="brandGrid" aria-label="Select a car brand"></div><p class="brand-logo-note">Vehicle brand logos are shown only to help identify your car; all trademarks belong to their respective owners.</p>
+      <section class="brand-model-panel" id="brandModelsPanel" hidden aria-live="polite" aria-labelledby="brandModelsTitle">
+        <div class="brand-model-head">
+          <div class="brand-model-heading">
+            <img class="brand-model-logo" id="brandModelsLogo" alt="">
+            <div>
+              <div class="eyebrow-red">AVAILABLE VEHICLES</div>
+              <h3 id="brandModelsTitle">Choose a brand to see its models</h3>
+              <p class="brand-model-intro" id="brandModelsIntro">Select a model generation to view supported years and shade options.</p>
+            </div>
+          </div>
+          <button class="brand-model-close" id="closeBrandModels" type="button" aria-label="Close model details">×</button>
+        </div>
+        <div class="brand-model-grid" id="brandModelGrid"></div>
+      </section>
     </section>
     <section class="how" id="how"><div class="wrap"><div class="center-heading"><div class="eyebrow-red">Simple from start to shade</div><h2>How it works</h2><p>Get the right car window shades in three easy steps.</p></div><div class="how-grid"><article class="how-step"><div class="how-icon">⌖</div><span class="how-number">STEP 01</span><h3>SELECT YOUR CAR</h3><p>Choose brand, model and year.</p></article><article class="how-step"><div class="how-icon">◐</div><span class="how-number">STEP 02</span><h3>CHOOSE YOUR SHADES</h3><p>Pick half, full or executive combo.</p></article><article class="how-step"><div class="how-icon">↗</div><span class="how-number">STEP 03</span><h3>ORDER ON WHATSAPP</h3><p>Send your selected fit and price directly to us.</p></article></div></div></section>
     <section class="section products hidden" id="options" aria-labelledby="optionsTitle"><div class="wrap"><div class="section-top"><div><div class="eyebrow-red">Custom-fit options</div><h2 id="optionsTitle">Choose your shade set</h2></div><p id="vehicleCaption">Select your car to see matching window shade options.</p></div>
@@ -83,7 +121,7 @@
   const brandGrid=$('#brandGrid');
   brandOrder.forEach(name=>{
     const count=Object.keys(cars[name]||{}).length;
-    const link=document.createElement('a');link.className='brand-tile';link.href='#fit';link.dataset.brandLink=name;
+    const link=document.createElement('a');link.className='brand-tile';link.href='#brandModelsPanel';link.dataset.brandLink=name;link.setAttribute('aria-controls','brandModelsPanel');link.setAttribute('aria-expanded','false');
     let icon;const logoSrc=brandLogos[name];if(logoSrc){icon=document.createElement('img');icon.className='brand-logo';icon.alt=name+' logo';icon.loading='lazy';icon.decoding='async';icon.addEventListener('error',()=>{const fallback=document.createElement('i');fallback.textContent=name.replace(/[^A-Za-z]/g,'').slice(0,1).toUpperCase();icon.replaceWith(fallback);},{once:true});icon.src=logoSrc;}else{icon=document.createElement('i');icon.textContent=name.replace(/[^A-Za-z]/g,'').slice(0,1).toUpperCase();}
     const text=document.createElement('span');const label=document.createElement('b');label.textContent=name.toUpperCase();
     const detail=document.createElement('small');detail.textContent=count?`${count} model generations`:'Confirm model by WhatsApp';
@@ -108,7 +146,62 @@
   });
   year.addEventListener('change',()=>{hideResults();statusLight.classList.remove('ready');fitStatus.textContent=year.value?(manualModel()?'Ready — our team will confirm this vehicle on WhatsApp.':'Ready — show the shade options; exact fitment will be confirmed.'):'Select your model year.';updateButton();});
   findBtn.addEventListener('click',()=>{if(findBtn.disabled)return;const vehicle=`${year.value} ${brand.value} ${model.value}`;optionsSection.classList.remove('hidden');caption.textContent=`Shade options for ${vehicle}. Our team will confirm exact fitment before production.`;fitStatus.textContent=`Vehicle selected: ${vehicle}`;statusLight.classList.add('ready');optionsSection.scrollIntoView({behavior:'smooth',block:'start'});});
-  brandGrid.addEventListener('click',event=>{const link=event.target.closest('[data-brand-link]');if(!link)return;brand.value=link.dataset.brandLink;brand.dispatchEvent(new Event('change',{bubbles:true}));});
+  function renderBrandModels(name){
+    const generations=cars[name]||{};
+    const panel=document.getElementById('brandModelsPanel');
+    const grid=document.getElementById('brandModelGrid');
+    const heading=document.getElementById('brandModelsTitle');
+    const intro=document.getElementById('brandModelsIntro');
+    const badge=document.getElementById('brandModelsLogo');
+    grid.replaceChildren();
+    panel.dataset.brand=name;
+    heading.textContent=`${name} models and generations`;
+    intro.textContent=`${Object.keys(generations).length} model generations. Choose one to select its year range and view shade options.`;
+    badge.src=brandLogos[name]||'';
+    badge.alt=`${name} logo`;
+    Object.entries(generations).forEach(([generation,range])=>{
+      const sorted=range.map(Number).sort((a,b)=>a-b);
+      const first=sorted[0],last=sorted[sorted.length-1];
+      const card=document.createElement('article');card.className='brand-model-card';
+      const title=document.createElement('h4');title.textContent=generation;
+      const years=document.createElement('span');years.className='brand-model-years';
+      years.textContent=first===last?`Model year: ${first}`:`Supported years: ${first}–${last}`;
+      const action=document.createElement('button');action.type='button';action.className='brand-model-action';
+      action.textContent='VIEW OPTIONS →';action.setAttribute('aria-label',`View shade options for ${name} ${generation}`);
+      action.addEventListener('click',()=>{
+        brand.value=name;brand.dispatchEvent(new Event('change',{bubbles:true}));
+        model.value=generation;model.dispatchEvent(new Event('change',{bubbles:true}));
+        panel.hidden=true;
+        brandGrid.querySelectorAll('[aria-expanded="true"]').forEach(tile=>tile.setAttribute('aria-expanded','false'));
+        fitStatus.textContent=`${name} ${generation} selected. Choose your exact year, then find your shade options.`;
+        document.getElementById('fit').scrollIntoView({behavior:'smooth',block:'start'});
+        window.setTimeout(()=>year.focus({preventScroll:true}),350);
+      });
+      card.append(title,years,action);grid.append(card);
+    });
+    panel.hidden=false;
+    panel.scrollIntoView({behavior:'smooth',block:'center'});
+  }
+  brandGrid.addEventListener('click',event=>{
+    const link=event.target.closest('[data-brand-link]');if(!link)return;
+    event.preventDefault();
+    const name=link.dataset.brandLink;
+    brandGrid.querySelectorAll('[aria-expanded="true"]').forEach(tile=>tile.setAttribute('aria-expanded','false'));
+    link.setAttribute('aria-expanded','true');
+    brand.value=name;brand.dispatchEvent(new Event('change',{bubbles:true}));
+    renderBrandModels(name);
+  });
+  document.getElementById('closeBrandModels').addEventListener('click',()=>{
+    document.getElementById('brandModelsPanel').hidden=true;
+    brandGrid.querySelectorAll('[aria-expanded="true"]').forEach(tile=>tile.setAttribute('aria-expanded','false'));
+  });
+  brand.addEventListener('change',()=>{
+    const panel=document.getElementById('brandModelsPanel');
+    if(!panel.hidden&&panel.dataset.brand!==brand.value){
+      panel.hidden=true;
+      brandGrid.querySelectorAll('[aria-expanded="true"]').forEach(tile=>tile.setAttribute('aria-expanded','false'));
+    }
+  });
   document.querySelectorAll('.product-card').forEach(card=>card.addEventListener('click',()=>{if(optionsSection.classList.contains('hidden'))return;selected=card.dataset.key;document.querySelectorAll('.product-card').forEach(other=>{const active=other===card;other.classList.toggle('selected',active);other.setAttribute('aria-checked',String(active));other.querySelector('.pick-indicator').textContent=active?'✓':'＋';});const choice=options[selected];orderBtn.disabled=false;summaryPrice.textContent=money(choice.price);summaryText.textContent=`${year.value} ${brand.value} ${model.value} · ${choice.name}`;mobileBtn.textContent=`Order ${money(choice.price)} on WhatsApp ↗`;}));
   function sendOrder(){if(!selected){if(optionsSection.classList.contains('hidden'))$('#fit').scrollIntoView({behavior:'smooth'});else optionsSection.scrollIntoView({behavior:'smooth',block:'start'});return;}const choice=options[selected];const text=["Assalam o Alaikum! I'd like to order custom-fit Car Window Shades.",`Car: ${brand.value} ${model.value} (${year.value})`,`Shade option: ${choice.name}`,`Total price: ${money(choice.price)}`,"Advance payment: Rs. 500 required for this custom order.","Please confirm exact vehicle fitment, order details and next steps. Thank you!"].join('\n');window.open(`https://wa.me/923091305993?text=${encodeURIComponent(text)}`,'_blank','noopener,noreferrer');}
   orderBtn.addEventListener('click',sendOrder);mobileBtn.addEventListener('click',()=>{if(optionsSection.classList.contains('hidden'))$('#fit').scrollIntoView({behavior:'smooth'});else if(!selected)optionsSection.scrollIntoView({behavior:'smooth',block:'start'});else sendOrder();});
